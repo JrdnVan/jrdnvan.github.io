@@ -7,10 +7,11 @@
 
 html, body {
     height: 100%;
+    font-family: 'Courier New', monospace;
 }
 
 body > div {
-    height: 100%;
+    height: calc(100% - 4em);
 }
 
 .main-body {
@@ -24,4 +25,9 @@ body > div {
     padding: 2em;
     background-color: var(--secondary-background-colour);
     min-height: calc(100% - 1em - 4em - 1em);
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.2);
+}
+.easy-read {
+    font-family: monospace;
+    font-size: 16px;
 }

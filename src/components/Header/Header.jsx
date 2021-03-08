@@ -1,12 +1,24 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
+import Socials from '../Socials/Socials';
+
 import './Header.css';
 function Header(props){
   const history = useHistory();
   return(
     <header className="header">
+      <div className="header-socials-float">
+        <Socials size="40" margin="0px 5px"/>
+      </div>
       <div className="header-logo-button-container">
-        <a className="header-logo-button" tabIndex={0}>jrdn</a>
+        <a 
+          className={props.currPage === "Main" ? "header-logo-button header-logo-button-on" : "header-logo-button"}
+          disabled={props.currPage === "Main"}
+          onClick={() => {history.push("/")}}
+          tabIndex={0}
+        >
+          jordan
+        </a>
       </div>
       <div className="header-redirect-button-container">
         <a
@@ -26,20 +38,20 @@ function Header(props){
           projects
         </a>
         <a
-          className={props.currPage === "Blog" ? "header-redirect-button header-redirect-button-on" : "header-redirect-button"}
-          disabled={props.currPage === "Blog"}
-          onClick={() => {history.push("/Blog")}}
+          className={props.currPage === "Resume" ? "header-redirect-button header-redirect-button-on" : "header-redirect-button"}
+          disabled={props.currPage === "Resume"}
+          onClick={() => {history.push("/resume")}}
           tabIndex={0}
         >
-          blog
+          resume
         </a>
         <a
-          className={props.currPage === "Instagram" ? "header-redirect-button header-redirect-button-on" : "header-redirect-button"}
-          disabled={props.currPage === "Instagram"}
-          onClick={() => {history.push("/Instagram")}}
+          className={props.currPage === "Contact" ? "header-redirect-button header-redirect-button-on" : "header-redirect-button"}
+          disabled={props.currPage === "Contact"}
+          onClick={() => {history.push("/contact")}}
           tabIndex={0}
         >
-          instagram
+          contact
         </a>
       </div>
     </header>

@@ -22,6 +22,9 @@
     color: var(--primary-text-colour);
     font-size: 3em;
 }
+.header-logo-button-on{
+    color: var(--secondary-text-colour);
+}
 .header-logo-button:hover{
     color: var(--secondary-text-colour);
 }
@@ -34,7 +37,7 @@
 
 .header-redirect-button{
     width: 100%;
-    font-size: 1em;
+    font-size: 1.3em;
     height: 2em;
     color: var(--primary-text-colour);
     border: none;
@@ -47,4 +50,9 @@
 }
 .header-redirect-button:hover{
     color: var(--secondary-text-colour);
+}
+.header-socials-float{
+    position: absolute;
+    top: 2em;
+    left: 4em;
 }

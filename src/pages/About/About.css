@@ -1,0 +1,10 @@
+.about-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about-text{
+    flex: 1;
+    color: white;
+    padding-right: 4em;
+}

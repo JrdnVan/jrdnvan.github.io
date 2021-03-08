@@ -1,0 +1,25 @@
+:root {
+    --primary-background-colour: #1A202C;
+    --secondary-background-colour: #2D3748;
+    --primary-text-colour: #FFFFFF;
+    --secondary-text-colour: #FFC821;
+}
+.contact-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--primary-text-colour);
+}
+.contact-email-href:link{
+    color: var(--primary-text-colour);
+}
+.contact-email-href:visited{
+    color: var(--secondary-text-colour);
+}
+.contact-email-href:hover{
+    color: var(--secondary-text-colour);
+}
+.contact-email-href:active{
+    color: var(--secondary-text-colour);
+}
