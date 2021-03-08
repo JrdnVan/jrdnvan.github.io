@@ -38,7 +38,7 @@ function ProjectDisplay(props) {
             title={props.title}
           />
           <CardContent
-            style={{backgroundColor: "#1A202C"}}
+            style={{backgroundColor: "#1A202C", height: "100px"}}
           >
             <Typography gutterBottom variant="h5" component="h2" style={{color: "#FFC821"}}>
               {props.title}

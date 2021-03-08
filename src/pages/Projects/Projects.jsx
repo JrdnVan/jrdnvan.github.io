@@ -17,21 +17,21 @@ function Projects(){
             <ProjectDisplay 
               img={personalWebsiteDisplay} 
               title="Personal Website"
-              description="a"
-              demo="https://jrdnvan.github.io/Calendar-Planner/"
-              github="https://github.com/JrdnVan/Calendar-Planner/tree/master/calendar-planner"
+              description="My own personal website."
+              demo="https://jrdnvan.github.io"
+              github="https://github.com/JrdnVan/jrdnvan.github.io"
             />
             <ProjectDisplay 
               img={digicardDisplay} 
               title="Business Card Reader" 
-              description="a"
+              description="A mobile application that scans business cards and stores all relevant information inside a digital wallet."
               demo="https://expo.io/@rseteam2/projects/test2"
               github="https://github.com/JrdnVan/business-card-wallet"
             />
             <ProjectDisplay 
               img={calendarPlannerDisplay} 
               title="Calendar Planner" 
-              description="a"
+              description="A fun, interactive website used for planning daily tasks and activities."
               demo="https://jrdnvan.github.io/Calendar-Planner/"
               github="https://github.com/JrdnVan/Calendar-Planner/tree/master/calendar-planner"
             />
