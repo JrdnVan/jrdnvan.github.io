@@ -31,3 +31,14 @@ body > div {
     font-family: monospace;
     font-size: 16px;
 }
+
+@media only screen and (max-width: 600px) {
+    .main-body-content {
+        min-height: calc(100% - 1em - 4em - 1em);
+        overflow: auto;
+        height: calc(100% - 1em - 4em - 1em);
+    }
+    body > div {
+        height: calc(100% - 4em + 0.5em);
+    }
+}

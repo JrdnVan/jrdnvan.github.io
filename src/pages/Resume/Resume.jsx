@@ -12,7 +12,7 @@ function Resume(){
         <div className="main-body-content">
           <div className="resume-main">
               <p>
-                You can view my resume below, please note that some information has been taken out<br/>
+                You can view my resume below, please note that some information has been taken out 
                 for this website specifically for privacy reasons and is available upon request.
               </p>
               <Button 

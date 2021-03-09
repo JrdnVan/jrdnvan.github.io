@@ -56,3 +56,14 @@
     top: 2em;
     left: 4em;
 }
+
+@media only screen and (max-width: 600px) {
+    .header-socials-float{
+        display: none;
+    }
+    .header-redirect-button{
+        font-size: 0.8em;
+        padding: 0px 4px;
+        margin: 0px 4px;
+    }
+}

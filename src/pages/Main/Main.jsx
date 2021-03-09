@@ -15,11 +15,11 @@ function Main(){
       <Header currPage="Main"/>
       <div className="main-body">
         <div className="main-body-content main-portrait-photo">
-          <ImageDisplay img={mainOnomichiPhoto} />
-          <ImageDisplay img={mainKyotoPhoto} />
-          <ImageDisplay img={mainPortraitPhoto} />
-          <ImageDisplay img={mainGreatWallPhoto} />
-          <ImageDisplay img={mainHongKongPhoto} />
+          <ImageDisplay img={mainOnomichiPhoto} class="image-display main-image" />
+          <ImageDisplay img={mainKyotoPhoto} class="image-display main-image" />
+          <ImageDisplay img={mainPortraitPhoto} class="image-display main-image" />
+          <ImageDisplay img={mainGreatWallPhoto} class="image-display main-image" />
+          <ImageDisplay img={mainHongKongPhoto} class="image-display main-image" />
         </div>
       </div>
       <Footer />

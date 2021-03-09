@@ -35,7 +35,7 @@ function About(){
                 </p>
               </div>
             </div>
-            <ImageDisplay img={portraitPhoto} />
+            <ImageDisplay img={portraitPhoto} class="image-display about-image" />
           </div>
         </div>
       </div>
